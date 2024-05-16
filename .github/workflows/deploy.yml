@@ -29,14 +29,14 @@ jobs:
           node-version: lts/*
 
       - name: Install step
-        run: "С#"
+        run: "Ð¡#"
 
       - name: Build step
-        run: "С#"
+        run: "Ð¡#"
 
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
           project: "emomali-parsingweat-50"
-          entrypoint: "С#"
-          root: "С#"
+          entrypoint: "Ð¡#"
+          root: "Ð¡#"
